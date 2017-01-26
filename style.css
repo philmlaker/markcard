@@ -1,0 +1,53 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+h1.header.center.orange-text{
+	color: #887665 !important;
+	font-family: 'IM Fell English SC', serif; !important;
+	font-size: 6em;
+
+
+}
+
+a#logo-container.brand-logo{
+	font-family: 'Special Elite', cursive;
+
+	font-size: 1.3em
+}
+
+nav.light-blue.lighten-1{
+	background-color: #58534e !important;
+	font-family: 'Special Elite', cursive;
+}
+
+h1.header.center.orange-text{
+	color: black !important;
+	font-family: 'Six Caps', sans-serif;
+	font-size: 9em;
+		text-shadow: 2px 2px 2px lightgrey;
+}
+
+h5.header.col.s12.light{
+font-family: 'Special Elite', cursive;
+}
+
+p.grey-text.text-darken-4{
+	font-family: 'Special Elite', cursive;
+	font-size: 14px;
+}
+
+nav ul a {
+font-size: 1.3em;
+}
