@@ -68,7 +68,6 @@ footer.page-footer {
 
 a#logo-container.brand-logo{
    font-family: 'IM Fell DW Pica', serif;
-   color:white;
 }
 
 h5.header.col.s12.light{
@@ -82,7 +81,7 @@ footer.page-footer.teal{
 }
 
 i.material-icons{
-  color: #979697;
+  color: #201e1a;
 }
 
 p.grey-text.text-lighten-4{
@@ -102,42 +101,19 @@ a.white-text {
 h5.center{
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
-  color: #cebea6;
 
 }
 
 p.light{
     font-family: 'IM Fell DW Pica', serif;
     font-size: 1.2em;
-    color: #A97 !important;
 }
 
-body {
-  position: relative;
+a.btn-floating.btn-large.red{
+  bottom: 875px;
+  right: 50px;
 }
-
-div.fixed-action-btn.toolbar{
-    position: absolute;
-    right: 0%;
-    top: 0%;
-    margin-right: 9em;
-    margin-top: 0.3em;
-}
-
 
 @media all and (max-width: 992px) {
-    div.fixed-action-btn.toolbar { display: none; }
-}
-
-nav.white{
-  background-color: #1f1e1d !important;
-}
-
-body{
- background-color: #21201c !important;
-
-}
-
-.red{
-  background-color: #48481c !important;
+    a.btn-floating.btn-large.red { display: none; }
 }

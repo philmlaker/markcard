@@ -4504,7 +4504,7 @@ if (jQuery) {
 
       $this.addClass('active');
       $this.find('ul .btn-floating').velocity(
-        { scaleY: ".4", scaleX: ".4", translateY: offsetY + 'px', translateX: offsetX + 'px'},
+        { scaleY: ".1", scaleX: ".4", translateY: offsetY + 'px', translateX: offsetX + 'px'},
         { duration: 0 });
 
       var time = 0;
@@ -4533,7 +4533,7 @@ if (jQuery) {
     var time = 0;
     $this.find('ul .btn-floating').velocity("stop", true);
     $this.find('ul .btn-floating').velocity(
-      { opacity: "0", scaleX: ".4", scaleY: ".4", translateY: offsetY + 'px', translateX: offsetX + 'px'},
+      { opacity: "0", scaleX: ".1", scaleY: ".4", translateY: offsetY + 'px', translateX: offsetX + 'px'},
       { duration: 80 }
     );
   };
@@ -4648,7 +4648,7 @@ if (jQuery) {
     var fabColor = anchor.css('background-color');
 
     offsetX = btnLeft - (windowWidth / 2) + (btnWidth / 2);
-    offsetY = windowHeight - btnBottom;
+    // offsetY = windowHeight - btnBottom;
     scaleFactor = windowWidth / backdrop.width();
 
 
