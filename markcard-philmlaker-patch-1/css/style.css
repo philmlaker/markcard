@@ -64,8 +64,8 @@ font-family: 'Six Caps', sans-serif;
 text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
 
 
-  font-size: 140px;
-  padding-top: 0.3em;
+  font-size: 184px;
+  
   margin-bottom: 2px;
    letter-spacing: 10px;
 
@@ -126,6 +126,7 @@ p.light{
 
 body {
   position: relative;
+  background: #21201c; /* For browsers that do not support gradients */
 }
 
 div.fixed-action-btn.toolbar{
@@ -145,10 +146,7 @@ nav.white{
   background-color: #1f1e1d !important;
 }
 
-body{
- background-color: #21201c !important;
 
-}
 
 .red{
   background-color:  rgb(132, 132, 12) !important;
