@@ -2760,6 +2760,7 @@ video.responsive-video {
   right: 0;
   bottom: 0;
   z-index: -1;
+      background-color: #171514;
 }
 
 .parallax img {
@@ -2881,7 +2882,8 @@ footer.page-footer .footer-copyright {
           align-items: center;
   padding: 10px 0px;
   color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
+      background-color: #171514;
+ 
 }
 
 table, th, td {
@@ -4206,8 +4208,8 @@ nav .input-field label.active i {
     min-height: 64px;
   }
   nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-    height: 64px;
-    line-height: 64px;
+    height: 75px;
+    line-height: 75px;
   }
   .navbar-fixed {
     height: 64px;
@@ -4251,6 +4253,17 @@ nav .input-field label.active i {
 
 a {
   text-decoration: none;
+}
+
+@media all and (max-width: 768px) {
+
+    h1 {
+      font-size: 100px !important;
+    }
+    h5.header.col.s12.light{
+       font-size: 20px !important;
+    }
+    }
 }
 
 html {
@@ -4959,7 +4972,7 @@ small {
 .btn-floating[disabled]:hover,
 .btn-large[disabled]:hover,
 .btn-flat[disabled]:hover {
-  background-color: #DFDFDF !important;
+  background-color:  !important;
   color: #9F9F9F !important;
 }
 
@@ -4994,7 +5007,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+  background-color: rgb(132, 107, 12);
 }
 
 .btn-floating {
@@ -5012,6 +5025,7 @@ small {
   transition: .3s;
   cursor: pointer;
   vertical-align: middle;
+      top: 3px
 }
 
 .btn-floating:hover {
@@ -5023,12 +5037,12 @@ small {
 }
 
 .btn-floating.btn-large {
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
 }
 
 .btn-floating.btn-large i {
-  line-height: 56px;
+  line-height: 61px;
 }
 
 .btn-floating.halfway-fab {
@@ -5195,11 +5209,11 @@ button.btn-floating {
 
 .btn-large {
   height: 54px;
-  line-height: 54px;
+  line-height: 75px;
 }
 
 .btn-large i {
-  font-size: 1.6rem;
+  font-size: 2.6rem;
 }
 
 .btn-block {
