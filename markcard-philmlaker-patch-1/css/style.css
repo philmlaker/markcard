@@ -1,0 +1,174 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.teal-text.text-lighten-2 {
+  color: white !important;
+  /*font-family: 'Reenie Beanie', cursive;*/
+
+font-family: 'Six Caps', sans-serif;
+text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+
+
+  font-size: 140px;
+  padding-top: 0.3em;
+  margin-bottom: 2px;
+   letter-spacing: 10px;
+
+}
+
+
+
+
+a#logo-container.brand-logo{
+   font-family: 'IM Fell DW Pica', serif;
+   color:white;
+}
+
+h5.header.col.s12.light{
+  font-family: 'IM Fell DW Pica', serif;
+    letter-spacing: 2px;
+     font-size: 31px;
+text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+
+footer.page-footer.teal{
+
+  background-color: #201e1a !important;
+}
+
+i.material-icons{
+    color: #845f37;
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.78);
+}
+
+p.grey-text.text-lighten-4{
+  text-align: justify !important;
+    font-family: 'IM Fell DW Pica', serif;
+      color: #A97 !important;
+       font-size: 1.2em;
+
+}
+
+
+
+a.white-text {
+     color: #A97 !important;
+}
+
+h5.center{
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  color: #cebea6;
+
+}
+
+p.light{
+    font-family: 'IM Fell DW Pica', serif;
+    font-size: 1.2em;
+    color: #A97 !important;
+    text-align: center;
+}
+
+body {
+  position: relative;
+}
+
+div.fixed-action-btn.toolbar{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    margin-right: 9em;
+    margin-top: 0.3em;
+}
+
+
+@media all and (max-width: 992px) {
+    div.fixed-action-btn.toolbar { display: none; }
+}
+
+nav.white{
+  background-color: #1f1e1d !important;
+}
+
+body{
+ background-color: #21201c !important;
+
+}
+
+.red{
+  background-color:  rgb(132, 132, 12) !important;
+}
+
+.btn-floating.btn-large i {
+    color: white;
+}
+
+#background1 {
+  height: auto;
+  width: 200px;
+}
+
+#background2 {
+  height: auto;
+  width: 200px;
+}
+
+#background3 {
+  height: auto;
+  width: 200px;
+}
