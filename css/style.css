@@ -158,17 +158,17 @@ nav.white{
 
 #background1 {
   height: auto;
-  width: 100px;
+  width: 50px;
 }
 
 #background2 {
   height: auto;
-  width: 100px;
+  width: 50px;
 }
 
 #background3 {
   height: auto;
-  width: 100px;
+  width: 50px;
 }
 
 #markCardPic{
@@ -246,4 +246,15 @@ font-weight: 2px;
 
 #set-up-studio {
     background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/01/24/12/v2-cute-cat-picture.jpg);
+}
+
+#photoLogo{
+  font-family: 'Permanent Marker', cursive;
+
+      color: rgb(226, 106, 57);
+    position: absolute;
+    top: 10pc;
+    right: 428px;
+    transform: rotate(-6deg);
+
 }
