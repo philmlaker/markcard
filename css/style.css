@@ -258,3 +258,25 @@ font-weight: 2px;
     transform: rotate(-6deg);
 
 }
+
+.mySlides{
+
+width: 900px;
+height: auto;
+margin: auto;
+}
+
+.w3-button {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #84840c;
+  font-size: 27px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.78);
+      text-align: center;
+      margin: 10px 10px;
+font-family: 'Lato', sans-serif;
+font-weight: 2px;
+      letter-spacing: 2px;
+
+}
