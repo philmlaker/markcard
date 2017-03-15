@@ -253,9 +253,9 @@ font-weight: 2px;
 
       color: rgb(226, 106, 57);
     position: absolute;
-    top: 10pc;
-    right: 428px;
-    transform: rotate(-6deg);
+     top: 169px;
+    right: 14%;
+        transform: rotate(-6deg);
 
 }
 
@@ -267,11 +267,11 @@ margin: auto;
 }
 
 .w3-button {
-  width: 200px;
+  width: 50px;
   height: 50px;
   line-height: 50px;
-  background-color: #84840c;
-  font-size: 27px;
+  background-color: #805c36;
+  
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.78);
       text-align: center;
       margin: 10px 10px;
@@ -279,4 +279,10 @@ font-family: 'Lato', sans-serif;
 font-weight: 2px;
       letter-spacing: 2px;
 
+}
+
+#slideIcons{
+  color: #d8c9ab !important;
+  font-size: 37px;
+   text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.78);
 }
