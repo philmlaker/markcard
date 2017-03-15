@@ -82,7 +82,7 @@ a#logo-container.brand-logo{
 h5.header.col.s12.light{
   font-family: 'IM Fell DW Pica', serif;
     letter-spacing: 2px;
-     font-size: 31px;
+     font-size: 30px;
 text-shadow: 2px 2px 0px black;
 }
 
@@ -100,7 +100,7 @@ p.grey-text.text-lighten-4{
   text-align: justify !important;
     font-family: 'IM Fell DW Pica', serif;
       color: #A97 !important;
-       font-size: 1.2em;
+       font-size: 22px;
 
 }
 
@@ -113,13 +113,13 @@ a.white-text {
 h5.center{
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
-  color: #cebea6;
+  color: white;
 
 }
 
 p.light{
     font-family: 'IM Fell DW Pica', serif;
-    font-size: 1.2em;
+    font-size: 22px;
     color: #A97 !important;
     text-align: center;
 }
@@ -184,12 +184,13 @@ nav.white{
   width: 400px;
   height: 100px;
   line-height: 100px;
-  background-color: #50500f;
-  font-size: 43px;
+  background-color: #84840c;
+  font-size: 32px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.78);
       text-align: center;
       margin: 10px 10px;
-      font-family: 'Anton', sans-serif;
+font-family: 'Lato', sans-serif;
+
       letter-spacing: 2px;
 
        
@@ -226,12 +227,23 @@ h2{
 width: 200px;
   height: 50px;
   line-height: 50px;
-  background-color: #50500f;
-  font-size: 33px;
+  background-color: #84840c;
+  font-size: 27px;
   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.78);
       text-align: center;
       margin: 10px 10px;
-      font-family: 'Anton', sans-serif;
+font-family: 'Lato', sans-serif;
+font-weight: 2px;
       letter-spacing: 2px;
 
+}
+
+
+
+
+/*FIRST PAGE*/
+
+
+#set-up-studio {
+    background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2013/01/24/12/v2-cute-cat-picture.jpg);
 }
